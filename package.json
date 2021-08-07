@@ -1,0 +1,26 @@
+{
+  "name": "generate-uri",
+  "version": "1.0.0",
+  "description": "generate uri string based on town and venue name",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davin2020/generate-uri.git"
+  },
+  "keywords": [
+    "generate uri",
+    "generate url"
+  ],
+  "author": "Davin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davin2020/generate-uri/issues"
+  },
+  "homepage": "https://github.com/davin2020/generate-uri#readme",
+  "dependencies": {
+    "jest": "^27.0.6"
+  }
+}
