@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/davin2020/generate-uri#readme",
   "dependencies": {
-    "jest": "^27.0.6"
+    "jest": "^27.0.6",
+    "slug": "^5.1.0"
   }
 }
