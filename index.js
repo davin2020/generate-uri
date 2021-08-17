@@ -14,7 +14,7 @@ exports.getVenueUri = function(strTown, strVenue) {
 			let slugTown = slug(strTown);
 			let slugVenue = slug(strVenue);
 			// let newUri = "/" + strTown + "-events/" + strVenue;
-			newUri = `/${slugTown}-events/${slugVenue}`;
+			newUri = `/${slugTown}-events-breakme/${slugVenue}`;
 		}
 		else if (typeof strTown !== "string") {
 			throw new Error(`Argument of Town ${strTown} passed to getVenueUri is not a string`);
