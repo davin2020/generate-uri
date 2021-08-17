@@ -2,16 +2,13 @@ name: Curl POST Request to ents24.com
 
 on:
   push:
-    branches: [ dev ]
+    branches: [ main, master ]
 
 jobs:
-  curl:
+  curl-request:
     runs-on: ubuntu-latest
 
     steps:
-    - name: 'Show Commit Hash'
-      run: echo "The commit hash that triggered this action is ${{ github.sha }}" 
-    
     - name: 'Execute curl POST Request'
       uses: wei/curl@master
       with:
