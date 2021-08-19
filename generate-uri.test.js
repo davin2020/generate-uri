@@ -3,7 +3,6 @@ const generateUri = require('generate-uri');
 //testing with Bristol and Thekla (success)
 test('Town of Bristol and Venue of Thekla generates venue URI of /bristol-events/thekla', () => {
   expect(generateUri.getVenueUri('Bristol', 'Thekla')).toBe('/bristol-events/thekla');
-  console.log('Town of Bristol and Venue of Thekla generates venue URI of /bristol-events/thekla')
 });
 
 //testing with Weston-Super-Mare and The Playhouse (success)
