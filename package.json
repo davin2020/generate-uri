@@ -11,8 +11,10 @@
     "url": "git+https://github.com/davin2020/generate-uri.git"
   },
   "keywords": [
-    "generate uri",
-    "generate url"
+    "uri",
+    "url",
+    "slugify",
+    "slug"
   ],
   "author": "Davin",
   "license": "ISC",
