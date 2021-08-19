@@ -1,8 +1,8 @@
-var slug = require('slug');
+let slug = require('slug');
 
 /*
 	Generates and returns a URI string for a venue, 
-	based on the slugified args town name and venue name,
+	based on the slugified args Town name and Venue name,
 	in the format "/[town-slug]-events/[venue-slug]",
 	or returns an error if either argument is not a string
 */
@@ -13,7 +13,6 @@ exports.getVenueUri = function(strTown, strVenue) {
 		if (typeof strTown === "string" && typeof strVenue === "string") {
 			let slugTown = slug(strTown);
 			let slugVenue = slug(strVenue);
-			// let newUri = "/" + strTown + "-events/" + strVenue;
 			newUri = `/${slugTown}-events/${slugVenue}`;
 		}
 		else if (typeof strTown !== "string") {
